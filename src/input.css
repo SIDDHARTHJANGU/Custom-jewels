@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button:hover svg path {
+  stroke: white;
+}
+button:hover svg path {
+  fill: red !important;
+}
+.icon-1:hover svg path {
+  fill: red !important;
+}
+
+.box-1:hover .contnt {
+  display: none !important;
+}
+.left_0 {
+  left: 0 !important;
+}
